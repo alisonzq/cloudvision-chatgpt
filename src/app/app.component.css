@@ -1,0 +1,77 @@
+/* AppComponent's private CSS styles */
+h1 {
+    margin: 1%;
+    display: flex;
+    font-weight: bold;
+}
+
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #dddbdb;
+    color: #3d3d3d;
+    border-radius: 4px;
+    font-size:larger;
+    font-weight:425;
+}
+  
+nav a:hover {
+    color: white;
+    background-color: #807a74;
+}
+
+nav a.active {
+    background-color: black;
+}
+
+.container {
+  
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #3d3d3d;
+    border-radius: 4px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-weight:500;
+}
+
+.user{
+    margin: 8px;
+}
+
+button {
+    background-color: rgb(224, 224, 224);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: rgb(58, 58, 58);
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.75rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+    margin-top: 5px;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
+
+
+.mat-success{
+    background-color: #807a74;
+    color: #fff;
+}
